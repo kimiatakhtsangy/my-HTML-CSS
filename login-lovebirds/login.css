@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    }
+.main-container {
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    grid-template:100fr/repeat(2, 50fr);
+    grid-template-areas: "login-image login-input";
+
+   }
+   .login-image {
+       grid-area:login-image;
+       background-image: url(lovebird.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: auto;
+
+     }
+  
+   .login-input {
+       height: 90vh;
+        grid-area:login-input;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+   }
+   .logo-container {
+       width: 100%;
+       height:60% ;
+       margin-bottom: 0%;
+       margin-top: 20%;
+      justify-items: center;
+   
+   }
+   .welcome-txt {
+       margin-top: 0%;
+       font-size: 2rem ;
+       color: rgb(184, 182, 182);
+   }
+   form{
+       width:90%;
+       font-size: 0.5rem;
+       margin-bottom: 0%;
+       margin-left: 5rem;
+    
+   }
+   .form-label{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    float: left;
+    color: rgb(184, 182, 182);
+
+   }
+   h4 {
+       color: rgb(184, 182, 182);
+       margin-top: 4px;
+       font-size: 1.2rem;
+       font-weight: 300;
+
+   }
+   .button-styl{
+       text-align: center;
+       width: 60%;
+       border-radius: 30px;
+       background-color:rgb(128, 125, 125);
+       box-shadow: ivory;
+       align-items: center;
+       justify-items: center;
+       font-weight: lighter;
+       
+   }
+   hr{
+       width: 20%;
+       color:rgb(22, 22, 22); ;
+   }
+   h6 {
+    margin: 2rem 0.5rem;
+    color: rgb(177, 163, 163);
+   }
+   #google-img {
+    width:2vw ;
+    height:4vh ;
+
+   }
+   #google-content{
+       font-size: 1.2rem;
+
+   }
+   #question {
+        text-align:center;
+        font-size: 1.5rem;
+   }
+   #creat{
+        color: rgb(93, 167, 93);
+         font-size: 1.5rem;
+   }
+   @media screen and (max-width: 750px)  {
+
+    .main-container {
+        width:300px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .login-image{
+        display: none;
+    }
+    .login-input {
+        width: 100%;
+
+
+    }
+    .logo-container {
+       width: 100%;
+       height:100% ;
+       margin-bottom: 10%;
+       margin-top: 20%;
+      justify-items: center;
+   
+   }
+    .welcome-txt {
+       margin-top: 0 0 0.5rem 1rem;
+       font-size: 2.5rem ;
+   }
+   form{
+       width:95%;
+       font-size: 0.5rem;
+       margin-bottom: 0%;
+       margin-left: 2rem;
+    
+   }
+   .form-label{
+    font-size: 1.3rem;
+
+   }
+   h4 {
+       margin-top: 4px;
+       font-size: 1.5rem;
+       font-weight: 300;
+
+   }
+   .button-styl{
+       text-align: center;
+       width: 80%;
+       margin-left: 1rem;
+       
+   }
+   hr{
+       width: 40%;
+   }
+   h6 {
+    margin: 2rem 0.5rem;
+   }
+   #google-img {
+        width:9vw ;
+        height:5vh ;
+   }
+   #google-content{
+       font-size: 1.5rem;
+       margin-left: 1rem;
+
+   }
+   #question{
+       margin-top:2rem;
+   }
+   #creat{
+         font-size:2rem;
+       
+       
+   }
+}
+  

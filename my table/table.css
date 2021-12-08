@@ -1,0 +1,35 @@
+
+  .body {
+    font-family: 'Source Serif Pro', serif;
+      font-size: 16px;
+      background-color:rgb(2, 8, 8);
+      width:800px;
+      border-collapse: collapse;
+      
+      
+  }
+  .header {
+    font-family: 'Source Serif Pro', serif;
+      color: blanchedalmond;
+      background-color: #18171c;
+      font-weight: bolder;
+      text-align: left;
+      border: none; 
+      
+
+  }
+  .tr {
+    font-family: 'Source Serif Pro', serif;
+      font-size: 14px;
+      color: rgba(255, 248, 220, 0.603);
+      text-align: left;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.137);
+      padding: 10px;
+      height: 70px;
+  }
+  .det-style{
+      color: darkgrey;
+      font-family: 'Source Serif Pro', serif;
+      font-size:10px ;
+      
+  }

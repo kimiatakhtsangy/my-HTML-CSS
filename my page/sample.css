@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+hr {
+    color: darkgrey;
+}
+.main-container  {
+    width:80%;
+    margin:0px auto;
+    background-color:white;
+    
+}
+.bott-style{
+  margin-left:20rem;
+  float: right;
+  color: ghostwhite;
+  background-color: rgb(236, 8, 84);
+  border: rgb(236, 8, 84);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 5%;
+  font-size: 0.75rem;
+}
+.icon_style {
+ margin-left: 0.3rem;
+ vertical-align:middle;
+ height: 1rem;
+}
+.content  {
+   width: 100%;
+  font-size: 16vm;
+  font-family: 'Open Sans', sans-serif;
+  margin-left:0.3rem;
+  margin-right:0.3rem;
+ }
+button {
+  font-family: 'Open Sans', sans-serif;
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 5%;
+  font-size: 0.5rem;
+  margin-bottom: 5rem;
+
+ }
+.logo-styl {
+     height: 1rem;
+     float: left;
+ }
+.bdy {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    height: 25rem;
+    width: 40rem;
+    display:gride;
+    align-items: center;
+    justify-items: center;
+    background: #f7f7f7;
+    margin-bottom: 5rem;
+
+}
+.card{
+    background:rgba(255, 255, 255, 0.534);
+    border-radius: 5%;
+    box-shadow: 0rem 0rem 1.5rem ;
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1.5rem;
+    
+}
+.desc {
+    width: 18rem;
+    margin-right: 18rem;;
+    font-size: 18vm;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-txt {
+    display: grid;
+/* grid-template-columns: 1fr 2fr;*/
+ }
+.img-avatar {
+   margin-left: 4rem;
+   margin-top: 5rem;
+   margin-bottom: 4rem;
+   width: 12rem;
+   height: 12rem;
+   border-radius: 90%;
+   border: 0.3rem solid whitesmoke;
+
+}
+.title-tot {
+   padding: 2.5em 1.5em 1.5em 1.5em ;
+}
+.portada {
+   width: 100%;
+   height: 100%;
+   
+}
+#left {
+   width:20rem;
+   float: left;
+   margin: 0.5rem 0.5rem 2rem 0;
+
+}
+#right {
+   width:20rem;
+   float: right;
+   margin: 0.5rem 0 2rem 0.5rem;
+
+}
+.felesh{
+   color:rgb(95, 93, 93);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 2rem;
+}
+#main-pic {
+   width:100%;
+}
+@media screen and (max-width: 800px) {
+.main-container  {
+    width: 150%;
+}
+.bott-style{
+    margin-left:5rem;
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+ }
+p,h2 {
+     width:100%; ;
+     margin: auto;
+     font-weight: 300;
+ }
+ /*#main-pic{
+     width:5%;
+ }*/
+ .bottn-icon {
+     width: 8rem;
+     margin:0.5rem 0.5rem;
+ }
+.bdy {
+    height: 100rem;
+    width: 6rem;}
+.card{
+    margin: 0.5rem 0 0 0.5rem;
+    height: 25rem;
+    width: 40rem;
+    }
+.desc { width: 9rem;
+    margin-right: 9rem;}
+.img-avatar {
+   margin-left: 3rem;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   width: 6rem;
+   height: 6rem;
+}
+}
